@@ -1,7 +1,7 @@
 {
   "name": "xiangzi-tally",
   "version": "0.1.0",
-  "homepage": "https://frankfang.github.io/morney-13-website/",
+  "homepage": "https://wuchuan123.github.io/xiangzi-react-website/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
@@ -76,8 +76,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "deploy:github": "sh scripts/deploy_github.sh",
-    "deploy:gitee": "sh scripts/deploy_gitee.sh"
+    "deploy": "sh scripts/deploy.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
