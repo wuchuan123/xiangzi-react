@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { Icon } from './Icon';
-import cs from 'classnames';
 
 const NavWrapper=styled.nav`
   background: white;
@@ -26,7 +25,7 @@ const NavWrapper=styled.nav`
         &.selected{
           color: red;
           .icon{
-            fill: red;
+            fill:red;
           }
         }
       }
