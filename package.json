@@ -1,5 +1,5 @@
 {
-  "name": "morney-13",
+  "name": "xiangzi-tally",
   "version": "0.1.0",
   "homepage": "https://frankfang.github.io/morney-13-website/",
   "private": true,
@@ -99,6 +99,7 @@
     "@types/react-router-dom": "^5.1.3",
     "@types/styled-components": "^5.0.1",
     "@types/webpack-env": "^1.15.1",
+    "bfj": "^7.0.2",
     "svg-sprite-loader": "^4.2.2",
     "svgo-loader": "^2.2.1"
   },
