@@ -9,7 +9,12 @@ import { NoMatch } from './views/NoMatch';
 
 
 const AppWrapper = styled.div`
-  color: inherit;`
+  color: inherit;
+  max-width: 500px;
+  max-height: 800px;
+  margin: 0 auto;
+`
+
 
 function App() {
   return (

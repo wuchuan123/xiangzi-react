@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
-
   > .output {
     background: white;
     font-size: 36px;
@@ -20,11 +19,12 @@ export const Wrapper = styled.section`
       float: left;
       width: 25%;
       height: 64px;
-      border: none;
-
+       border: none;
+ 
       &.ok {
         height: 128px;
         float: right;
+      
       }
 
       &.zero {
@@ -64,6 +64,9 @@ export const Wrapper = styled.section`
 
       &:nth-child(14) {
         background: #A9A9A9;
+      }
+      &:active{
+        background-color: wheat;
       }
     }
   }
